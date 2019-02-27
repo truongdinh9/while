@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhap -1 to ket thuc</title>
+</head>
+<body>
+<p id="dem"></p>
+<script>
+    let sum=0;
+    while (true) {
+       var i= parseInt(prompt("Nhập 1 số nguyên "));
+       alert("Số vừa nhập"+i) ;
+       if (i==-1) {sum+=i;
+       break;}
+       sum = sum+i;
+    }
+    document.getElementById("dem").innerHTML=" Tổng các số được nhập là:  "+ sum;
+
+
+</script>
+</body>
+</html>
